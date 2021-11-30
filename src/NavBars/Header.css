@@ -1,0 +1,25 @@
+.header {
+  background-color: #11133c;
+  height: 55px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.header > svg {
+  color: #fffffe;
+  width: 30px;
+  height: 30px;
+}
+
+svg:hover {
+  color: lightskyblue;
+  transform: scale(1.1);
+}
+
+.header > h2 {
+  color: #fffffe;
+  width: 100%;
+  text-align: center;
+}

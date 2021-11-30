@@ -1,0 +1,42 @@
+.buttonContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.table-container {
+  margin-top: 40px;
+}
+
+.buttonContainer > button {
+  border: none;
+  border-style: none;
+  background-color: #11133c;
+  color: #fffffe;
+  padding-right: 7px;
+  padding-left: 7px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 10px;
+}
+
+.buttonContainer > button:hover {
+  color: lightskyblue;
+  transform: scale(1.1);
+}
+
+table {
+  text-align: center;
+}
+
+@media (max-width: 400px) {
+  table {
+    font-size: x-small;
+  }
+}
+
+@media (max-width: 350px) {
+  table {
+    font-size: xx-small;
+  }
+} ;

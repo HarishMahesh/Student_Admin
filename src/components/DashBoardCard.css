@@ -1,0 +1,23 @@
+.card-dash-container {
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid #e3e6f0;
+  border-radius: 0.35rem;
+  border-left: 0.25rem solid #11133c !important;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 30px;
+}
+
+.card-dash-container > p {
+  margin: 0;
+  font-size: 0.7rem;
+  color: #2da2a8;
+}
+
+.card-dash-container > h2 {
+  color: #5a5c69;
+  font-weight: 700;
+  font-size: 1.25rem;
+}
