@@ -8,3 +8,11 @@ body {
   background-color: #ebecefb3;
   margin-bottom: 10px;
 }
+
+.form-container {
+  margin-top: 100px;
+  padding: 15px;
+  border: 1px solid darkgray;
+  border-radius: 10px;
+  background-color: #ffffff;
+}
